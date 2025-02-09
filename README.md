@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+### **Expense Tracker**  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Expense Tracker is a React-based application powered by a JSON Server backend, designed to help users efficiently track and manage their expenses. It offers secure user authentication, full CRUD (Create, Read, Update, Delete) functionality, and an intuitive expense visualization using a pie chart.  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+### **Features**  
 
-### `npm start`
+#### **Authentication**  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Signup:** Users can create an account to start tracking their expenses.  
+- **Login:** Existing users can log in securely to access their personal expense records.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### **Expense Management (CRUD Functionality)**  
 
-### `npm test`
+- **Add Expense:** Users can log new expenses by entering the amount, category, and date.  
+- **View Expenses:** A structured list displays all recorded expenses.  
+- **Edit Expense:** Users can update expense details whenever necessary.  
+- **Delete Expense:** Users can remove unwanted expense entries.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### **Visualization**  
 
-### `npm run build`
+- **Pie Chart:** A dynamic pie chart provides a categorized breakdown of spending, helping users analyze their financial habits effectively.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### **Backend**  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- JSON Server is used to simulate a RESTful backend, managing user accounts and expense records.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### **Tech Stack**  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Frontend:** React (with Hooks and State Management)  
+- **Backend:** JSON Server (for RESTful API simulation)  
+- **Charting:** React charting libraries like Chart.js or Recharts for expense visualization  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### **Getting Started**  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### **How It Works**  
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **User Authentication:** Users sign up or log in to access their personal expense data.  
+2. **Adding Expenses:** A simple form allows users to input expense details, including amount, category, and date.  
+3. **Managing Expenses:** Users can view, edit, and delete their expenses, with real-time updates to the backend.  
+4. **Expense Visualization:** The app dynamically updates a pie chart, providing insights into spending patterns and category-wise expenses.  
